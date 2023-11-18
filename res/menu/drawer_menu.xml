@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Movies -->
+    <item
+        android:id="@+id/nav_movies"
+        android:title="Movies">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_movies_show_popular"
+                    android:title="Show Popular" />
+                <item
+                    android:id="@+id/nav_movies_show_now_showing"
+                    android:title="Show Now Showing" />
+                <item
+                    android:id="@+id/nav_movies_show_upcoming"
+                    android:title="Show Upcoming" />
+                <item
+                    android:id="@+id/nav_movies_filter_genre"
+                    android:title="Filter by Genre" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- TV Show -->
+    <item
+        android:id="@+id/nav_tv_show"
+        android:title="TV Show">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_tv_show_popular"
+                    android:title="Show Popular" />
+                <item
+                    android:id="@+id/nav_tv_filter_genre"
+                    android:title="Filter by Genre" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- People -->
+    <item
+        android:id="@+id/nav_people"
+        android:title="People">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_people_popular"
+                    android:title="Show Popular" />
+            </group>
+        </menu>
+    </item>
+</menu>
